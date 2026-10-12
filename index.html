@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Arun Prasath R, a computer science student interested in cybersecurity.">
+  <title>Arun Prasath R | Cybersecurity Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="Arun Prasath R home"><span>APR</span><small>Personal site</small></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top" class="horizontal-main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>01</span> B.Sc. Computer Science student</p>
+          <h1 id="hero-title">Arun Prasath R<br><em>Cybersecurity enthusiast.</em></h1>
+          <p class="hero-intro">I’m interested in ethical hacking, networking, and technology. I’m working toward becoming a cybersecurity professional.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
+            <a class="text-link" href="#contact">Let’s talk <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Cybersecurity themed illustration">
+          <img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&w=1200&q=80" alt="Hacking man portrait with cyber aesthetic" />
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-heading"><p class="eyebrow"><span>02</span> About me</p><h2 id="about-title">Always ready to <em>learn.</em></h2></div>
+        <div class="about-layout">
+          <p class="about-lede">I enjoy learning something new every day.</p>
+          <div class="about-body"><p>I am a B.Sc. Computer Science student, a cybersecurity enthusiast, and an ethical hacking learner.</p><p>I am interested in networking and technology, and I am aspiring to become a future cybersecurity professional.</p><a class="text-link" href="#contact">Get in touch <span>↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="skills-section section-pad" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading"><p class="eyebrow"><span>03</span> Skills</p><h2 id="skills-title">What I’m <em>working with.</em></h2></div>
+        <div class="skills-grid">
+          <div class="skill-card"><span>C</span><p>Programming fundamentals and system logic</p></div>
+          <div class="skill-card"><span>Networking</span><p>Core concepts and communication basics</p></div>
+          <div class="skill-card"><span>Linux</span><p>Command-line workflows and technical exploration</p></div>
+          <div class="skill-card"><span>Cybersecurity</span><p>Ethical hacking interest and security learning</p></div>
+        </div>
+      </section>
+
+      <section class="work-section section-pad" id="work" aria-labelledby="work-title">
+        <div class="section-heading"><p class="eyebrow"><span>04</span> Projects</p><h2 id="work-title">What I have <em>built.</em></h2></div>
+        <div class="project-grid">
+          <article class="project-card project-large">
+            <div class="project-art art-signal">
+              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80" alt="Hospital or patient management illustration" />
+              <span>Patient<br>Registration<br>System</span>
+            </div>
+            <div class="project-meta"><div><h3>Patient Registration System</h3><p>Console application · Built only with C</p></div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey-section section-pad" id="journey" aria-labelledby="journey-title">
+        <div class="section-heading"><p class="eyebrow"><span>05</span> Journey</p><h2 id="journey-title">My <em>learning path.</em></h2></div>
+        <div class="journey-list">
+          <div class="journey-item"><span>01</span><div><h3>Foundation</h3><p>Learning the fundamentals of programming and problem solving.</p></div></div>
+          <div class="journey-item"><span>02</span><div><h3>Networking</h3><p>Studying how systems communicate and connect.</p></div></div>
+          <div class="journey-item"><span>03</span><div><h3>Cybersecurity</h3><p>Exploring ethical hacking, security awareness, and system protection.</p></div></div>
+        </div>
+      </section>
+
+      <section class="profile-section section-pad" id="profile" aria-labelledby="profile-title">
+        <div class="section-heading"><p class="eyebrow"><span>06</span> My profile</p><h2 id="profile-title">Professional <em>presence.</em></h2></div>
+        <div class="profile-layout">
+          <div class="profile-card">
+            <img class="profile-photo" src="WhatsApp Image 2026-09-29 at 9.12.39 PM.jpeg" alt="Portrait of Arun Prasath R">
+            <h3 class="profile-name">Arun Prasath R</h3>
+            <p class="profile-education">B.Sc. Computer Science<br>Bishop Heber College, Trichy</p>
+            <p class="profile-kicker">Cybersecurity & technology</p>
+            <p class="profile-summary">I’m building my path in cybersecurity, networking, and technology through continuous learning, curiosity, and practical exploration.</p>
+          </div>
+          <div class="profile-panel">
+            <span class="profile-badge">Open to connect</span>
+            <a class="contact-link" href="https://www.linkedin.com/in/arun-prasath-73b190424/?isSelfProfile=true" target="_blank" rel="noreferrer">My LinkedIn profile <span aria-hidden="true">↗</span></a>
+            <a class="contact-link" href="https://github.com/arun-dev-prasath" target="_blank" rel="noreferrer">My GitHub profile <span aria-hidden="true">↗</span></a>
+            <a class="contact-link" href="https://www.instagram.com/ft__prasath/" target="_blank" rel="noreferrer">Instagram @ft__prasath <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <p class="eyebrow"><span>07</span> Contact</p>
+          <h2 id="contact-title">Let’s connect<br>and <em>learn.</em></h2>
+          <p class="contact-note">I’m open to connecting with people who are interested in cybersecurity, ethical hacking, networking, and technology.</p>
+          <a class="contact-phone" href="tel:+919787715125" aria-label="Call Arun Prasath R at +91 97877 15125">
+            <span>Call me</span>
+            <strong>+91 97877 15125</strong>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="year"></span> Arun Prasath R</span><div class="footer-links"><a href="#top">Back to top ↑</a></div></footer>
+  </div>
+</body>
+</html>
